@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 229235963}
   - component: {fileID: 229235962}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 229235961}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71b157aa857b79242ba2cb36c050a64d, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d3d5070041ec474eba6f1663497d88c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   startMenu: {fileID: 1677258098}
@@ -498,7 +498,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 852729530}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 364e224d697174f4187cf55b688a86fe, type: 3}
+  m_Script: {fileID: 11500000, guid: df3667dd41184d144a23c524d33fb46a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ip: 127.0.0.1
@@ -527,7 +527,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 852729530}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5d629c956d3f7f4aa235269fb081685, type: 3}
+  m_Script: {fileID: 11500000, guid: 923cad9082c8e8243a26adeb1312218d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &963194225
@@ -555,7 +555,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -717,12 +717,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1065366374}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96ae17397f3c0714cbe5f0576e14c4ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a99150a2c98f9a4d83fa0d5cbe4db1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localPlayerPrefab: {fileID: 5718288450657978674, guid: 8bd62b3be02451844b2dfda19e2cefcd,
+  localPlayerPrefab: {fileID: 5718288450657978674, guid: 08e2f52bfbb74fa47b19b2e7a685874e,
     type: 3}
-  playerPrefab: {fileID: 5718288450657978674, guid: 15ddeab452e73884a89776a9a7a0a978,
+  playerPrefab: {fileID: 5718288450657978674, guid: b13bc4ae022c6e440b13148a38b4adfb,
     type: 3}
 --- !u!4 &1065366376
 Transform:

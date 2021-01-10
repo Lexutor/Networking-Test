@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6846012929589290186}
-  - component: {fileID: 5738005575238161652}
+  - component: {fileID: 5731894977177318130}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5738005575238161652
+--- !u!114 &5731894977177318130
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,7 +41,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5718288450657978674}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0864641e47cb8b4db2f7f9c82ddc9b5, type: 3}
+  m_Script: {fileID: 11500000, guid: 81fcdb7a883ee214696c5ec2058b45ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
@@ -105,7 +105,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 041f120a49860e44f997b50e75ddbb37, type: 2}
+  - {fileID: 2100000, guid: f3a4a4c01a5f283429f090462c6fd630, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
