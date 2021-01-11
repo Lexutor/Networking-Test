@@ -6,9 +6,17 @@ GameClient/GameClient/[Ll]ibrary/
 GameClient/GameClient/[Tt]emp/
 GameClient/GameClient/[Oo]bj/
 GameClient/GameClient/[Bb]uild
-GameClient/GameClient//[Bb]uilds/
+GameClient/GameClient/[Bb]uilds/
 GameClient/GameClient//[Ll]ogs/
 GameClient/GameClient//[Mm]emoryCaptures/
+
+UnityGameServer/[Ll]ibrary/
+UnityGameServer/[Tt]emp/
+UnityGameServer/[Oo]bj/
+UnityGameServer/[Bb]uild
+UnityGameServer/[Bb]uilds/
+UnityGameServer//[Ll]ogs/
+UnityGameServer//[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
