@@ -269,7 +269,7 @@ public class Client : MonoBehaviour
             socket = null;
         }
     }
-    
+
     private void InitializeClientData()
     {
         packetHandlers = new Dictionary<int, PacketHandler>()
@@ -278,6 +278,7 @@ public class Client : MonoBehaviour
             { (int)ServerPackets.spawnPlayer, ClientHandle.SpawnPlayer },
             { (int)ServerPackets.playerPosition, ClientHandle.PlayerPosition },
             { (int)ServerPackets.playerRotation, ClientHandle.PlayerRotation },
+            { (int)ServerPackets.playerDisconnected, ClientHandle.PlayerDisconnected }
         };
         Debug.Log("Initialized packets.");
     }
