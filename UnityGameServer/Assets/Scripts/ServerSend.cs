@@ -99,6 +99,8 @@ public class ServerSend
         }
     }
 
+    /// <summary>Sends a player's updated rotation to al clients except to himself.</summary>
+    /// <param name="_player">The player whose rotation to update.</param>
     public static void PlayerRotation(Player _player)
     {
         using (Packet _packet = new Packet((int)ServerPackets.playerRotation))
@@ -115,6 +117,27 @@ public class ServerSend
         using (Packet _packet = new Packet((int)ServerPackets.playerDisconnected))
         {
             _packet.Write(_playerId);
+
+            SendTCPDataToAll(_packet);
+        }
+    }
+
+    public static void PlayerHealth(Player _player)
+    {
+        using (Packet _packet = new Packet((int)ServerPackets.playerHealth))
+        {
+            _packet.Write(_player.id);
+            _packet.Write(_player.health);
+
+            SendTCPDataToAll(_packet);
+        }
+    }
+
+    public static void PlayerRespawed(Player _player)
+    {
+        using (Packet _packet = new Packet((int)ServerPackets.playerRespawed))
+        {
+            _packet.Write(_player.id);
 
             SendTCPDataToAll(_packet);
         }
